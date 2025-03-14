@@ -131,7 +131,7 @@
   "patchName" : "Custom branding icon for YouTube",
   "options" : [ {
     "key" : "appIcon",
-    "value" : "youtubel"
+    "value" : "youtube"
   }, {
     "key" : "changeSplashIcon",
     "value" : true
