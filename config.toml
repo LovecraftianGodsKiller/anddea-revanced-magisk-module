@@ -6,40 +6,40 @@ parallel-jobs = 1
 
 # you can use rvmm-config-gen to generate a config
 
-[YouTube]
-build-mode = "both"
-excluded-patches = "'Hide shortcuts'"
-included-patches = "'Custom branding icon for YouTube', 'Custom branding name for YouTube', 'Custom header for youtube', 'Hide shorts dimming', 'Hide shortcuts', 'MaterialYou'"
+# [YouTube]
+# build-mode = "both"
+# excluded-patches = "'Hide shortcuts'"
+# included-patches = "'Custom branding icon for YouTube', 'Custom branding name for YouTube', 'Custom header for youtube', 'Hide shorts dimming', 'Hide shortcuts', 'MaterialYou'"
 # version = "auto"
-version = "19.44.39"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
+# version = "19.44.39"
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
+# uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
-[Music]
-build-mode = "both"
-arch = "both"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+# [Music]
+# build-mode = "both"
+# arch = "both"
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+# uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
-[GooglePhotos]
-build-mode = "both"
-arch = "both"
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
-uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
+# [GooglePhotos]
+# build-mode = "both"
+# arch = "both"
+# version = "auto"
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
+# uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 
 # dont build on gh actions (https://github.com/j-hc/revanced-magisk-module/issues/554)
-[Music-Extended]
-enabled = false
-app-name = "Music"
-patches-source = "anddea/revanced-patches"
-cli-source = "inotia00/revanced-cli"
-rv-brand = "ReVanced Extended"
-build-mode = "both"
-arch = "arm64-v8a"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
+# [Music-Extended]
+# enabled = false
+# app-name = "Music"
+# patches-source = "anddea/revanced-patches"
+# cli-source = "inotia00/revanced-cli"
+# rv-brand = "ReVanced Extended"
+# build-mode = "both"
+# arch = "arm64-v8a"
+# apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [YouTube-Extended]
@@ -49,6 +49,7 @@ patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
+version = "19.44.39"
 pather-args = "'-OsettingsMenuIcon=gear', '-OappIcon=youtube', '-OdarkThemeBackgroundColor=@android:color/black'"
 exclude-patches = "'Hide shortcuts'"
 included-patches = "'Custom branding icon for YouTube', 'Custom branding name for YouTube', 'Custom header for youtube', 'Hide shorts dimming', 'Hide shortcuts', 'MaterialYou'"
