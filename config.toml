@@ -51,8 +51,15 @@ rv-brand = "ReVanced Extended"
 build-mode = "both"
 version = "19.44.39"
 pather-args = "'-OsettingsMenuIcon=gear', '-OappIcon=youtube', '-OdarkThemeBackgroundColor=@android:color/black'"
-exclude-patches = "'Hide shortcuts'"
-included-patches = "'Custom branding icon for YouTube', 'Custom branding name for YouTube', 'Custom header for youtube', 'Hide shorts dimming', 'Hide shortcuts', 'MaterialYou'"
+excluded-patches = "'Hide shortcuts'"
+included-patches = """\
+'Custom branding icon for YouTube' \
+'Custom branding name for YouTube' \
+'Custom header for youtube' \
+'Hide shorts dimming' \
+'Hide shortcuts' \
+'MaterialYou' \
+"""
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
