@@ -8,9 +8,10 @@ parallel-jobs = 1
 
 [YouTube]
 build-mode = "both"
-excluded-patches = ""
+excluded-patches = "'Hide shortcuts'"
 included-patches = "'Custom branding icon for YouTube', 'Custom branding name for YouTube', 'Custom header for youtube', 'Hide shorts dimming', 'Hide shortcuts', 'MaterialYou'"
-version = "auto"
+# version = "auto"
+version = "19.44.39"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
