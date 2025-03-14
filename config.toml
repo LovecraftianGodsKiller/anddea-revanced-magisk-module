@@ -61,6 +61,7 @@ included-patches = """\
 'Hide shortcuts' \
 'MaterialYou' \
 """
+riplib = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
