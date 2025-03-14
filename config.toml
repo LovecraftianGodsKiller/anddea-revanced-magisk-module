@@ -48,6 +48,7 @@ patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
+pather-args = "'
 included-patches = "'Custom branding icon for YouTube', 'Custom branding name for YouTube', 'Custom header for youtube', 'Hide shorts dimming', 'Hide shortcuts', 'MaterialYou'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
