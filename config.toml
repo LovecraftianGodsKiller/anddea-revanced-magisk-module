@@ -50,7 +50,8 @@ cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
 version = "19.44.39"
-pather-args = "'-OsettingsMenuIcon=gear', '-OappIcon=youtube', '-OdarkThemeBackgroundColor=@android:color/black'"
+# pather-args = "'-OsettingsMenuIcon=gear', '-OappIcon=youtube', '-OdarkThemeBackgroundColor=@android:color/black'"
+patcher-args = "--legacy-options options.json"
 excluded-patches = "'Hide shortcuts'"
 included-patches = """\
 'Custom branding icon for YouTube' \
