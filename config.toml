@@ -9,7 +9,7 @@ parallel-jobs = 1
 [YouTube]
 build-mode = "both"
 excluded-patches = ""
-included-patches = ""
+included-patches = "'Custom branding icon for YouTube', 'Custom branding name for YouTube', 'Custom header for youtube', 'Hide shorts dimming', 'Hide shortcuts', 'MaterialYou'"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
@@ -33,7 +33,7 @@ uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 [Music-Extended]
 enabled = false
 app-name = "Music"
-patches-source = "inotia00/revanced-patches"
+patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
@@ -42,12 +42,13 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [YouTube-Extended]
-enabled = false
+enabled = true
 app-name = "YouTube"
 patches-source = "anddea/revanced-patches"
-cli-source = "anddea/revanced-cli"
+cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
+included-patches = "'Custom branding icon for YouTube', 'Custom branding name for YouTube', 'Custom header for youtube', 'Hide shorts dimming', 'Hide shortcuts', 'MaterialYou'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
