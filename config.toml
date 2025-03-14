@@ -51,7 +51,8 @@ rv-brand = "ReVanced Extended"
 build-mode = "both"
 version = "19.44.39"
 # pather-args = "'-OsettingsMenuIcon=gear', '-OappIcon=youtube', '-OdarkThemeBackgroundColor=@android:color/black'"
-patcher-args = "--legacy-options options.json"
+# patcher-args = "--legacy-options options.json"
+patcher-args = "-e 'Custom branding icon for YouTube' -OappIcon=youtube"
 excluded-patches = "'Hide shortcuts'"
 included-patches = """\
 'Custom branding icon for YouTube' \
