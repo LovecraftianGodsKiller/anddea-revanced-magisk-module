@@ -74,7 +74,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
 [Music-Extended]
-enabled = false
+enabled = true
 app-name = "YouTube Music"
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
