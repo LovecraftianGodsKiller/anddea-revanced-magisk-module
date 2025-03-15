@@ -88,6 +88,7 @@ included-patches = """\
 'Hide player overlay filter' \
 """
 pather-args = "-e 'Visual preferences icons for YouTube Music' -OsettingsMenuIcon=gear -e 'Settings for YouTube' -OrvxSettingsLabel='ReVanced Extended' -e 'Dark theme' -OmaterialYou=true"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 
 [Twitch]
 enabled = false
