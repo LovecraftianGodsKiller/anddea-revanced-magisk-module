@@ -62,7 +62,8 @@ included-patches = """\
 'Hide shortcuts' \
 'MaterialYou' \
 """
-patcher-args = "-e 'Custom branding icon for YouTube' -OappIcon=youtube"
+excluded-patches = "'Hide shortcuts'"
+patcher-args = "-e 'Custom branding icon for YouTube' --options=appIcon=youtube"
 riplib = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
