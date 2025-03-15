@@ -43,7 +43,7 @@ parallel-jobs = 1
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [YouTube-Extended]
-enabled = true
+enabled = false
 app-name = "YouTube"
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
@@ -70,6 +70,24 @@ patcher-args = "-e 'Visual preferences icons for YouTube' -OsettingsMenuIcon=gea
 riplib = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+
+[Music-Extended]
+enabled = true
+app-name = "YouTube Music"
+patches-source = "anddea/revanced-patches"
+cli-source = "inotia00/revanced-cli"
+patches-version = "dev"
+rv-brand = "ReVanced Extended"
+build-mode = "both"
+version = "auto"
+included-patches = """\
+'Custom branding name for YouTube' \
+'Custom header for YouTube' \
+'Disable music video in album' \
+'Hide overlay filter' \
+'Hide player overlay filter' \
+"""
+pather-args = "-e 'Visual preferences icons for YouTube Music' -OsettingsMenuIcon=gear -e 'Settings for YouTube' -OrvxSettingsLabel='ReVanced Extended' -e 'Dark theme' -OmaterialYou=true"
 
 [Twitch]
 enabled = false
