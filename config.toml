@@ -62,7 +62,7 @@ included-patches = """\
 'MaterialYou' \
 """
 excluded-patches = "'Hide shortcuts'"
-patcher-args = "-e 'Visual preferences icons for YouTube' -OsettingsMenuIcon=gear -e 'Custom header for YouTube' -Oyt_premium*"
+patcher-args = "-e 'Visual preferences icons for YouTube' -OsettingsMenuIcon=gear -e 'Custom header for YouTube' -Oheader=premium*header*"
 riplib = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
