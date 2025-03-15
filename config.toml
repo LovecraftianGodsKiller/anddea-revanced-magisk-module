@@ -66,7 +66,7 @@ excluded-patches = """\
 'Custom branding icon for YouTube' \
 'Custom branding name for YouTube' \
 """
-patcher-args = "-e 'Visual preferences icons for YouTube' -OsettingsMenuIcon=gear -e 'Settings for YouTube -OrvxSettingsLabel="ReVanced Extended""
+patcher-args = "-e 'Visual preferences icons for YouTube' -OsettingsMenuIcon=gear -e 'Settings for YouTube' -OrvxSettingsLabel=ReVanced Extended"
 riplib = true
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
