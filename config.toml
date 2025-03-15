@@ -47,6 +47,7 @@ enabled = true
 app-name = "YouTube"
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
+patches-version = "dev"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
 version = "19.44.39"
