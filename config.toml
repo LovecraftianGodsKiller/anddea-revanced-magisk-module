@@ -91,7 +91,7 @@ included-patches = """\
 excluded-patches = """\
 'Dark theme' \
 """
-patcher-args = "-e 'Visual preferences icons for YouTube Music' -OsettingsMenuIcon=gear -e 'Settings for YouTube Music' -OrvxSettingsLabel='ReVanced Extended' -e 'Dark theme' -OmaterialYou=true"
+patcher-args = "-e 'Visual preferences icons for YouTube Music' -OsettingsMenuIcon=gear -e 'Settings for YouTube Music' -OrvxSettingsLabel='ReVanced Extended'"
 arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 
