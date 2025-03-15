@@ -4,13 +4,13 @@
 
 Extensive ReVanced builder  
 
-Get the [latest CI release](https://github.com/LovecraftianGodsKiller/anddea-revanced-magisk-module/releases).
+Get the [latest (CI) release](https://github.com/LovecraftianGodsKiller/anddea-revanced-magisk-module/releases).
 
 Use [**zygisk-detach**](https://github.com/j-hc/zygisk-detach) to detach YouTube and YT Music from Play Store if you are using magisk modules. 
 
 <details><summary><big>Features</big></summary>
 <ul>
- <li>Support all present and future ReVanced and <a href="https://github.com/inotia00/revanced-patches">ReVanced Extended</a> apps</li>
+ <li>Support all present and future ReVanced and <a href="https://github.com/anddea/revanced-patches">ReVanced Extended (anddea's build)</a> apps</li>
  <li> Can build Magisk modules and non-root APKs</li>
  <li> Updated daily with the latest versions of apps and patches</li>
  <li> Optimize APKs and modules for size</li>
