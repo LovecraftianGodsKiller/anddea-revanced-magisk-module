@@ -62,7 +62,6 @@ included-patches = """\
 'MaterialYou' \
 """
 excluded-patches = """\
-'Custom branding name for YouTube' \
 'Hide shortcuts'\
 'Custom branding icon for YouTube' \
 'Custom branding name for YouTube' \
