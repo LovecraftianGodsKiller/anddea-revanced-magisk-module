@@ -82,14 +82,14 @@ rv-brand = "ReVanced Extended"
 build-mode = "both"
 version = "auto"
 included-patches = """\
-'Custom branding name for YouTube' \
-'Custom header for YouTube' \
+'Custom header for YouTube Music' \
 'Disable music video in album' \
 'Hide overlay filter' \
 'Hide player overlay filter' \
 """
 excluded-patches = """\
 'Dark theme' \
+'Custom branding name for YouTube Music' \
 """
 patcher-args = "-e 'Visual preferences icons for YouTube Music' -OsettingsMenuIcon=gear -e 'Settings for YouTube Music' -OrvxSettingsLabel='ReVanced Extended'"
 arch = "arm64-v8a"
