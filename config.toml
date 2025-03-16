@@ -56,13 +56,13 @@ version = "auto"
 # patcher-args = "--legacy-options options.json"
 # patcher-args = "-e 'Custom branding icon for YouTube' -OappIcon='mmt' -e 'Snack bar components' -OdarkThemeBackgroundColor='@android:color/black'"
 included-patches = """\
-'Custom branding name for YouTube' \
 'Custom header for YouTube' \
 'Hide Shorts dimming' \
 'Hide shortcuts' \
 'MaterialYou' \
 """
 excluded-patches = """\
+'Custom branding name for YouTube' \
 'Hide shortcuts'\
 'Custom branding icon for YouTube' \
 'Custom branding name for YouTube' \
