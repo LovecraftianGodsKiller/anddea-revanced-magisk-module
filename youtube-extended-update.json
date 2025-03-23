@@ -1,6 +1,6 @@
 {
-  "version": "v19.44.39 (patches: dev.5)",
-  "versionCode": 27,
-  "zipUrl": "https://github.com/LovecraftianGodsKiller/anddea-revanced-magisk-module/releases/download/27/youtube-revanced-extended-magisk-v19.44.39-arm64-v8a.zip",
+  "version": "v20.10.40 (patches: 3.5.0)",
+  "versionCode": 28,
+  "zipUrl": "https://github.com/LovecraftianGodsKiller/anddea-revanced-magisk-module/releases/download/28/youtube-revanced-extended-magisk-v20.10.40-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/LovecraftianGodsKiller/anddea-revanced-magisk-module/update/build.md"
 }
