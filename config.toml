@@ -47,7 +47,7 @@ enabled = true
 app-name = "YouTube"
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
-patches-version = "v3.10.0-dev.7"
+patches-version = "v3.10.0"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
 version = "20.21.37"
@@ -78,10 +78,10 @@ enabled = true
 app-name = "YouTube Music"
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
-patches-version = "v3.10.0-dev.7"
+patches-version = "v3.10.0"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
-version = "8.18.52"
+version = "8.24.54"
 included-patches = """\
 'Custom header for YouTube Music' \
 'Disable music video in album' \
