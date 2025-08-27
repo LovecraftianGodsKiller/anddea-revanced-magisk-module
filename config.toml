@@ -112,6 +112,8 @@ excluded-patches = """\
 'Hide Create button' \
 'Unlock Premium' \
 """
+arch = "arm64-v8a"
+riplib = true
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
 
