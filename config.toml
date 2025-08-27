@@ -104,6 +104,13 @@ cli-source = "inotia00/revanced-cli"
 rv-brand "ReVanced Extended"
 build-mode = "apk"
 version = "latest"
+excluded-patches = """\
+'Change lyrics provider' \
+'Custom branding name for Spotify' \
+'Custom theme' \
+'Hide Create button' \
+'Unlock Premium' \
+"""
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
 
@@ -130,9 +137,9 @@ enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/messenger/"
 arch = "arm64-v8a"
 
-[Spotify]
-enabled = false
-uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+# [Spotify]
+# enabled = false
+# uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 
 [IconPackStudio]
 enabled = false
