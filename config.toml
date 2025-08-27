@@ -96,6 +96,17 @@ patcher-args = "-e 'Visual preferences icons for YouTube Music' -OsettingsMenuIc
 arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 
+[Spotify]
+enabled = true
+app-name = "Spotify"
+patches-source = "anddea/revanced-patches"
+cli-source = "inotia00/revanced-cli"
+rv-brand "ReVanced Extended"
+build-mode = "apk"
+version = "latest"
+uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
+
 [Twitch]
 enabled = false
 apkmirror-dlurl = "https://www.apkmirror.com/apk/twitch-interactive-inc/twitch/"
