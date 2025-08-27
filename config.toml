@@ -101,7 +101,7 @@ enabled = true
 app-name = "Spotify"
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
-rv-brand "ReVanced Extended"
+rv-brand = "ReVanced Extended"
 build-mode = "apk"
 version = "latest"
 excluded-patches = """\
