@@ -97,7 +97,7 @@ arch = "arm64-v8a"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 
 [Spotify]
-enabled = true
+enabled = false
 app-name = "Spotify"
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
